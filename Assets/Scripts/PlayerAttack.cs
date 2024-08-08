@@ -9,14 +9,16 @@ public class PlayerAttack : MonoBehaviour
 
     private bool attacking = false;
 
-    private float timeToAttack = 0.25f;
+    private float timeToAttack = 0.35f;
     private float timer = 0f;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         // get first child of game object
         attackArea = transform.GetChild(0).gameObject;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
+            animator.SetBool("Attack", true);
         }
 
         // reset timer for attacking
@@ -37,6 +40,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 attacking = false;
                 attackArea.SetActive(attacking);
+                animator.SetBool("Attack", false);
             }
 
         }
