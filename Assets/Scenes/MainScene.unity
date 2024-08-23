@@ -887,7 +887,7 @@ MonoBehaviour:
   wallCheck: {fileID: 1047509666}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 192
 --- !u!212 &1372094229
 SpriteRenderer:
   m_ObjectHideFlags: 0
