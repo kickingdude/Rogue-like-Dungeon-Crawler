@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: c830fb797e9f3be419f5f32cc0094afa
+  productGUID: ec65d3043cc5f4df69c2dc8e29e45907
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Kelpico Pt.2
+  productName: Grappling Hook
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,16 +630,16 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: KelpicoPt.2
-  metroPackageVersion: 1.0.0.0
+  metroPackageName: Grappling Hook
+  metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Kelpico Pt.2
+  metroApplicationDescription: Grappling Hook
   wsaImages: {}
-  metroTileShortName: Kelpico Pt.2
+  metroTileShortName: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -706,11 +706,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 326ba5b3-ff54-47d4-aca1-bb030dc35d73
+  cloudProjectId: 37c490db-969d-482d-9326-daa23626e722
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Kelpico Pt.2
-  organizationId: kickingdude
+  projectName: Grappling Hook
+  organizationId: yoonies
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
